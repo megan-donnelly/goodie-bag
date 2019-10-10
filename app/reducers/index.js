@@ -1,11 +1,13 @@
-
-const initialState = {}
+const initialState = {
+  candies: [],
+  selectedCandy: {},
+};
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     default:
-      return state
+      return state;
   }
-}
+};
 
-export default rootReducer
+export default rootReducer;
